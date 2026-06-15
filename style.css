@@ -21,10 +21,10 @@ body {
   margin-bottom: 10px;
   text-align: right;
   padding: 10px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  background: black;   /* ✅ Display screen is black */
-  color: white;        /* ✅ Text is white */
+  background: white;   /* ✅ Display screen is white */
+  color: black;        /* ✅ Text is black and visible */
 }
 
 .buttons {
@@ -50,3 +50,4 @@ button:hover {
 .zero {
   grid-column: span 2;
 }
+

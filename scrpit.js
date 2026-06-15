@@ -1,6 +1,6 @@
 function appendValue(value) {
   let display = document.getElementById("display");
-  display.value += value;   // ✅ ensures typed numbers show up
+  display.value += value;   // ✅ shows typed numbers/operators
 }
 
 function clearDisplay() {
