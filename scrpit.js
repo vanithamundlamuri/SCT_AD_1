@@ -1,6 +1,5 @@
 function appendValue(value) {
-  let display = document.getElementById("display");
-  display.value += value;   // ✅ shows typed numbers/operators
+  document.getElementById("display").value += value;
 }
 
 function clearDisplay() {
