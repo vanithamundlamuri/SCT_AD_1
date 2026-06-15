@@ -1,12 +1,13 @@
 # SCT_AD_1 - Calculator App
 
 ## 📌 Task
-Build a calculator app that can perform basic arithmetic operations.
+Build a simple calculator app that performs basic arithmetic operations.
 
 ## 🚀 Features
 - Addition, Subtraction, Multiplication, Division
-- Clear and Delete functionality
-- Responsive design with simple UI
+- Clear button
+- Decimal support
+- Responsive layout
 
 ## 🛠️ Tech Stack
 - HTML
@@ -16,4 +17,4 @@ Build a calculator app that can perform basic arithmetic operations.
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/SCT_AD_1.git
+   git clone https://github.com/vanithamundlamuri/SCT_AD_1.git
