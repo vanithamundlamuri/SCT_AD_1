@@ -8,7 +8,7 @@ body {
 }
 
 .calculator {
-  background: #222;
+  background: white;   /* ✅ Calculator body is white */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -23,6 +23,8 @@ body {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  background: black;   /* ✅ Display screen is black */
+  color: white;        /* ✅ Text is white */
 }
 
 .buttons {

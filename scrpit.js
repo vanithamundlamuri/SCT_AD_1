@@ -1,5 +1,6 @@
 function appendValue(value) {
-  document.getElementById("display").value += value;
+  let display = document.getElementById("display");
+  display.value += value;   // ✅ ensures typed numbers show up
 }
 
 function clearDisplay() {
@@ -7,15 +8,15 @@ function clearDisplay() {
 }
 
 function deleteLast() {
-  let current = document.getElementById("display").value;
-  document.getElementById("display").value = current.slice(0, -1);
+  let display = document.getElementById("display");
+  display.value = display.value.slice(0, -1);
 }
 
 function calculateResult() {
+  let display = document.getElementById("display");
   try {
-    let result = eval(document.getElementById("display").value);
-    document.getElementById("display").value = result;
+    display.value = eval(display.value);
   } catch {
-    document.getElementById("display").value = "Error";
+    display.value = "Error";
   }
 }
